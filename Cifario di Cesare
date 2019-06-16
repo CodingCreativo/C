@@ -1,0 +1,18 @@
+/* tratto da
+https://www.codingcreativo.it/cifrario-di-cesare-in-c/
+*/
+
+.....
+for(i=0;i<n;i++)
+		if(testo[i]<'Z'-c)
+			testoc[i]=testo[i]+c;
+		else
+			testoc[i]='A'+c-('Z'-testo[i])-1;
+	
+	    testoc[n] = '\0';
+	
+	    printf("Testo criptato : %s\n",testoc);
+      
+      ...
+      
+      Vai all'esercizio completo su https://www.codingcreativo.it/cifrario-di-cesare-in-c
